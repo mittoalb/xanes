@@ -1,0 +1,31 @@
+package:
+  name: xanes
+  version: '0.0.4'
+
+source:
+  path: src
+  
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+ 
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - dmagic
+
+about:
+  home: http://xanes.readthedocs.org
+  license: BSD-3
+  summary: 'XANES Tools.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
