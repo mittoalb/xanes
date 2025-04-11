@@ -119,3 +119,6 @@ credentials.ini
 .vscode/
 
 .loglogin
+
+# Jupyter Notebook
+.ipynb_checkpoints
